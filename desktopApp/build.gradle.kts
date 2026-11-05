@@ -17,11 +17,11 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "ies.sequeros.pmdm.MainKt"
+        mainClass = "ies.sequeros.navigator3.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "ies.sequeros.pmdm"
+            packageName = "ies.sequeros.navigator3"
             packageVersion = "1.0.0"
         }
     }
